@@ -39,7 +39,9 @@ class Board extends React.Component {
   generateBoard = (columns, rows) => {
     let board = [];
 
-    
+    /**
+     * Generate (col * row, here, 3 * 3 = 9) squares
+     */
     for (let i = 0; i < columns * rows; i++) {
       /**
        * Generate columns.
